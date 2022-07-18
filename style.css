@@ -3,13 +3,23 @@ body {
 }
 
 .font-primary {
-  color:limegreen;
+  color: limegreen;
 }
 .title-icon {
   font-size: 30px;
   font-weight: bold;
 }
-
+p {
+  font-size: 14px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+a.font-black {
+  color: black !important;
+}
 /******************
 About
 *******************/
@@ -27,18 +37,54 @@ About
 }
 #about .name {
   font-size: 19px;
+  font-weight: bold;
 }
 #about .vocation {
   font-size: 17px;
   color: #a8a8ab;
   margin-bottom: 10px;
 }
-#about .skills{font-size: 14px;
-color:limegreen;
-margin-bottom: 10px;}
-.email{margin-top: 14px;
-font-size: 20px;}
-.icons{ margin-top: 10px;
-    font-size: 30px;
-color:limegreen;}
-#about .icons a{color: limegreen;}
+#about .skills {
+  font-size: 14px;
+  color: limegreen;
+  margin-bottom: 10px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: lime;
+}
+.email {
+  margin-top: 14px;
+  font-size: 20px;
+  color: black;
+}
+.icons {
+  margin-top: 10px;
+  font-size: 30px;
+  color: limegreen;
+}
+#about .icons a {
+  color: limegreen;
+}
+/**********************
+Projects
+**********************/
+#projects {
+  margin: 60px auto;
+  width: 80%;
+}
+#projects h2 {
+  text-align: center;
+}
+#projects .card img {
+  width: 100%;
+}
+#projects .card-title {
+  font-weight: bold;
+}
+.netflix {
+  color: red !important;
+}
+.languages{font-weight: bold;
+    -webkit-text-stroke: 1px black;
+      -webkit-text-fill-color: lime;}
+.twitter {color: #1DA1F2}
