@@ -49,8 +49,7 @@ About
   color: limegreen;
   margin-bottom: 10px;
   font-weight: bold;
-  -webkit-text-stroke: 1px black;
-	-webkit-text-fill-color: lime;
+  
 }
 .email {
   margin-top: 14px;
@@ -85,6 +84,5 @@ Projects
   color: red !important;
 }
 .languages{font-weight: bold;
-    -webkit-text-stroke: 1px black;
-      -webkit-text-fill-color: lime;}
+   color: limegreen;}
 .twitter {color: #1DA1F2}
